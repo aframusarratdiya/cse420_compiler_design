@@ -4,8 +4,11 @@ Lab assignments for CSE420 (Compiler Design) at BRAC University. Together they b
 
 Assignments
 Assignment 1: Lexical and Syntax Analyzer. Tokenizes C source code (keywords, identifiers, constants, operators, punctuators) and parses it with a Bison grammar. Logs every token and every matched grammar rule along with the source segment, plus the final line count.
+
 Assignment 2: Symbol Table. Symbol table with nested scope handling (symbol_info.h, scope_table.h, symbol_table.h), integrated into the Bison/Flex parser.
+
 Assignment 3: Semantic Analyzer. Semantic checks on top of the symbol table, including type checking in expressions and assignments, array index type checks, function argument checks, and modulus/division-by-zero detection.
+
 Assignment 4: Intermediate Code Generation. Builds an Abstract Syntax Tree during parsing, then traverses it to generate three-address code (arithmetic, logical and relational operations, arrays, if/while/for, function calls and returns).
 Tools
 
