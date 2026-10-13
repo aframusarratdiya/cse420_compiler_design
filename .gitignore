@@ -11,4 +11,4 @@ y.tab.h
 *log.txt
 error.txt
 code.txt
-"@ | Set-Content .gitignore -Encoding utf8
+"@ | Set-Content .gitignore -Encoding ascii
