@@ -1,0 +1,14 @@
+@"
+*.exe
+a.out
+*.o
+lex.yy.c
+y.tab.c
+y.tab.h
+*.tab.c
+*.tab.h
+*.output
+*log.txt
+error.txt
+code.txt
+"@ | Set-Content .gitignore -Encoding utf8
